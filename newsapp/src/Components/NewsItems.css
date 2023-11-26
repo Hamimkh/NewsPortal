@@ -1,0 +1,129 @@
+.card {
+    position: relative;
+    margin: 1rem 0.7rem;
+    display: flex;
+    width: 23rem;
+    height: 15rem;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    box-shadow: 0 0.2rem 0.4rem rgba(0, 0, 0, 0.1);
+}
+
+.card-elements {
+    margin: 0rem 0.5rem;
+}
+
+/* Card content styles */
+.card-content {
+    font-size: 0.9rem;
+}
+
+/* Card image styles */
+.card-image {
+    width: 11rem;
+    height: 100%;
+    border-radius: 8px 0px 0px 8px;
+}
+
+.btn{
+    text-decoration: none;
+    border-radius: 0.4rem;
+    font-size: 1rem;
+    margin: auto;
+    width: 20rem;
+    padding: 0.3rem;
+    color: white;
+    background-color: rgb(0, 0, 0);
+    border: none;
+}
+
+.btn:hover {
+    background-color: grey;
+}
+
+.badge {
+    position: absolute;
+    top: 0%; /* Adjust the top position as needed */
+    left: 0%; /* Adjust the left position as needed */
+    flex-direction: column;
+    background-color: #58d584;
+    color: #fff; /* Text color */
+    padding: 0.3rem 0.8rem; /* Padding around text */
+    border-radius: 0.5rem; /* Rounded corners */
+    font-size: 0.8rem;
+}
+
+/* Extra Small Devices (phones) */
+@media (max-width: 376px) {
+    .card {
+        width: 19rem;
+        height: 13rem;
+    }
+
+    .card-image {
+        width: 9rem;
+        height: 100%;
+    }
+
+    .card-content {
+        font-size: 0.7rem;
+    }
+
+    .card-title {
+        font-size: 0.9rem;
+    }
+    
+}
+
+/* Small Devices (tablets) */
+@media (min-width: 689px) and (max-width: 768px) {
+    .card {
+        width: 20rem;
+        height: 13rem;
+    }
+
+    .card-image {
+        width: 9rem;
+        height: 100%;
+    }
+
+    .card-title {
+        font-size: 1rem;
+    }
+    .card-content {
+        font-size: 0.8rem;
+    }
+}
+
+/* Medium Devices (small laptops, large tablets) */
+/* 769px to 944px */
+@media (min-width: 769px) and (max-width: 944px) {
+    .card {
+        width: 22rem;
+    }
+
+    .card-image {
+        width: 10rem;
+        height: 100%;
+    }
+
+    .card-title {
+        font-size: 1.1rem;
+    }
+}
+
+/* 945px t0 1205px */
+@media (min-width: 945px) and (max-width: 1205px) {
+    .card {
+        width: 28rem;
+    }
+
+    .card-image {
+        width: 13rem;
+        height: 100%;
+    }
+}
+
+/* Large Devices (desktops) */
+@media (min-width: 1206px) {
+}

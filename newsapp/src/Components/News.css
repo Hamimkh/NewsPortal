@@ -1,0 +1,18 @@
+.insideContainer {
+    display: flex;
+    flex-wrap: wrap; /* Allow items to wrap to the next row */
+}
+
+.items {
+    box-sizing: border-box;
+    margin: auto;
+}
+
+.prev-next {
+    background-color: black;
+    color: white;
+    margin: 2rem 5rem;
+    padding: 0.5rem;
+    width: 5rem;
+
+}
